@@ -20,7 +20,7 @@ a bash script suitable for execution on a [Windows-10 WSL (Windows Subsystem for
     * Photo event time Synchronization
 1. Use a GNSS trajectory to process Photo Events from the CWW-PPK into precision photo positions that can be loaded loaded into Agisoft Metashape for SfM processing.
 
-##Leveraged Software:
+## Leveraged Software:
 * RTKlib: An Open Source Program Package for GNSS Positioning. The RTKlib manual in pdf can be found at: www.rtklib.com. PPK-2-PixPos uses the Linux commandline version of the RTKlib postprocessor (RNX2RTKP) and other tools.
 * Teqc: The Toolkit for GNSS Data.
 
