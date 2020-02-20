@@ -1,3 +1,15 @@
+# mp_genjpg.ipynb
+**mp_genjpg** walks a directory containing 
+[raw Sony ARW photo files](https://en.wikipedia.org/wiki/Raw_image_format#ARW), and generates a
+Linux bash script which will use all CPU cores to generate jpg or other
+photo files.  After gathering the list of raw photos, it divides them by the number
+of CPU cores on your computer, and then generates a list for each core of input and output
+file names.  A Bash script is generated that will run several copies (one per core) of GraphicsMagick 
+configured to convert the raw file to jpg (or other) output format.
+
+The program runs on a windows-10 based jupyter Python Notebook and generates
+a bash script suitable for execution on a [Windows-10 WSL (Windows Subsystem for Linux)](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
+
 # PPK-2-PixPos
 PPK-2-PixPos software is designed to do the following:
 1. Run completely online from a Google Chrome, FireFox, or Safari web browser
