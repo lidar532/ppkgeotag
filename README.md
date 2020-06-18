@@ -43,3 +43,6 @@ Python notebook with cells pre-loaded with several test case datasets.  This not
 
 # Extract_exif_info.py
 Python program to be run from within Agisoft / Metashape to extract photo EXIF information from each photo and write the information to a single EXIF file. The resulting file is required by the ppkgeotagging software to link each photo to the precision GPS position as well as the Flash Event time stamps.
+
+# CORS_Lib.ipynb
+Library of tools to gather CORS data.  Intended to be used with PPK notebooks to eliminate the need to round up CORS data using a browser, uploading, etc.   This notebook doen't work yet. 
