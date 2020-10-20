@@ -25,6 +25,9 @@
 1. Elevation Histograms
 1. Trajectory statistics 
 
+# cwwppkgeotaglib.ipynb  [Run in Colabs](https://colab.research.google.com/github/lidar532/ppkgeotag/blob/2020-0222-dev/cwwppkgeotaglib.ipynb)
+Library of functions, and defs.
+
 # Extract_exif_info.py  ( Run locally as a script in Agisoft metashape or Photoscan )
 Python program to be run from within Agisoft / Metashape to extract photo EXIF information from each photo and write the information to a single EXIF file. The resulting file is required by the ppkgeotagging software to link each photo to the precision GPS position as well as the Flash Event time stamps.
 
