@@ -24,11 +24,11 @@ Utilities to:
 
 # PPK-2-PixPos  [ Run in Colabs ](https://colab.research.google.com/github/lidar532/ppkgeotag/blob/2020-1020-dev/PPK_2_PixPos.ipynb)
 **PPK-2-PixPos** software is designed to do the following:
+1. Photo event time Synchronization with a PPK trajectory.
 1. Using Google Colabs, Runs, completely online, in the cloud, from a Google Chrome, FireFox, or Safari web browser
-1. Photo event time Synchronization
 1. Use a GNSS trajectory to process Photo Events from the CWW-PPK into precision photo positions that can be loaded loaded into Agisoft Metashape for SfM processing.
 
-# PPK_trajectory_analysis.ipynb [ Run in Colabs ]
+# PPK_trajectory_analysis.ipynb [ Run in Colabs ](https://colab.research.google.com/github/lidar532/ppkgeotag/blob/2020-1020-dev/PPK_trajectory_analysis.ipynb)
 **PPK_trajectory_analysis** is a tool box for graphical analysis and comparison of GNSS trajectories generated using various methods and programs including RTKlib, Novatel GrafNav, and The free online Canadian Natural Resources PPP service.  The toolbox allows loading up to 7 different trajectories, and can geherate graphical plots of the data including: 
 1. Plan view
 1. Elevation
@@ -37,7 +37,7 @@ Utilities to:
 1. Trajectory statistics 
 
 # cwwppkgeotaglib.ipynb  [Run in Colabs](https://colab.research.google.com/github/lidar532/ppkgeotag/blob/2020-1020-dev/cwwppkgeotaglib.ipynb)
-Library of functions, and defs.
+Library of functions, and defs. shared across notebooks.
 
 # Extract_exif_info.py  ( Run locally as a script in Agisoft metashape or Photoscan )
 Python program to be run from within Agisoft / Metashape to extract photo EXIF information from each photo and write the information to a single EXIF file. The resulting file is required by the ppkgeotagging software to link each photo to the precision GPS position as well as the Flash Event time stamps.
