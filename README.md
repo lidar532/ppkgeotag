@@ -29,7 +29,7 @@ Utilities to:
 1. Use a GNSS trajectory to process Photo Events from the CWW-PPK into precision photo positions that can be loaded loaded into Agisoft Metashape for SfM processing.
 
 # PPK_trajectory_analysis.ipynb [ Run in Colabs ](https://colab.research.google.com/github/lidar532/ppkgeotag/blob/2020-1020-dev/PPK_trajectory_analysis.ipynb)
-**PPK_trajectory_analysis** is a tool box for graphical analysis and comparison of GNSS trajectories generated using various methods and programs including RTKlib, Novatel GrafNav, and The free online Canadian Natural Resources PPP service.  The toolbox allows loading up to 7 different trajectories, and can geherate graphical plots of the data including: 
+**PPK_trajectory_analysis** is a tool box for graphical analysis and comparison of GNSS trajectories generated using various methods and programs including RTKlib, Novatel GrafNav, and The free online Canadian Natural Resources PPP service.  The toolbox allows loading up to 7 different trajectories, and can generate graphical plots of the data including: 
 1. Plan view
 1. Elevation
 1. Elevation differences
